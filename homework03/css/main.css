@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    width: 600px;
+    margin: 70px auto 120px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.1st-nav {
+    font-size: 14px;
+    font-weight: 400;
+    list-style-type: none;
+}
+
+.lol {
+    
+}
