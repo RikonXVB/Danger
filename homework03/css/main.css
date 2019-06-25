@@ -32,7 +32,7 @@
 
 .section {
    width: 900px;
-   margin: 0 auto;
+   margin: 0 auto 100px;
 }
 
 ul {
@@ -44,6 +44,10 @@ ul {
 }
 .list__item {
     width: 420px;
+    margin-bottom: 50px;
+}
+.list__item:nth-child(n+5) {
+    margin-bottom: 0;
 }
 
 .list__mini--info {
