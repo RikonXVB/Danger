@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
 }
 .header {
     width: 600px;
@@ -11,14 +12,56 @@
 .menu {
     display: flex;
     justify-content: space-between;
+    list-style: none;
 }
 
 .1st-nav {
     font-size: 14px;
     font-weight: 400;
-    list-style-type: none;
+    
 }
 
 .lol {
-    
+    text-decoration: none;
+    color: grey;
 }
+
+.lol:hover {
+    color: blue;
+}
+
+.section {
+   width: 900px;
+   margin: 0 auto;
+}
+
+ul {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    color: grey;
+    display: flex;
+}
+.list__item {
+    width: 420px;
+}
+
+.list__mini--info {
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: left;
+}
+
+.list__title {
+
+    font-size: 30px;
+}
+
+.list__text {
+
+    font-size: 14px;
+    text-align: left;
+}
+
+
+
